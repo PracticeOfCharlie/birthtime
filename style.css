@@ -23,7 +23,7 @@ h1, h1 em {
     letter-spacing: -6.05px;
 }
 
-h2, h2 a {
+h2 {
     color: #000;
     font-family: Inter;
     font-size: 100px;
@@ -31,6 +31,21 @@ h2, h2 a {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -6px;
+}
+
+h2 a {
+    color: #1400FF;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -6px;
+}
+
+h2 a:hover {
+    cursor: pointer;
 }
 
 h3 {
@@ -41,7 +56,7 @@ h3 {
     letter-spacing: -1.14px;
 }
 
-.normalText {
+.normalText, .normalText a {
     color: #000;
     font-family: Inter;
     font-size: 14px;
@@ -49,6 +64,22 @@ h3 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.84px;
+}
+
+a:link {
+    color: #1400FF;
+}
+
+a:hover {
+    color: #30df00;
+}
+
+a:visited {
+    color: #5a008e;
+}
+
+a:active {
+    color: #00b600;
 }
 
 .birth {
